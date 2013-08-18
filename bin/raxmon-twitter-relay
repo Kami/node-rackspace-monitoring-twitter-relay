@@ -37,7 +37,10 @@ if (optimist.argv.help || optimist.argv.h) {
   process.exit(0);
 }
 
-var argv = optimist.demand(['config']).argv, config, server;
+var config, server,
+    argv = optimist.demand(['config'])
+    .alias('c', 'config')
+    .argv;
 
 try {
   config = config.loadAndValidate(argv.config);
