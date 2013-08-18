@@ -1,0 +1,57 @@
+{
+  "name": "rackspace-monitoring-twitter-relay",
+  "description": "An application which listens for Rackspace Cloud Monitoring alert webhooks and relays them to Twitter.",
+  "version": "0.1.0",
+  "author": "Tomaz Muraus <tomaz+npm@tomaz.me>",
+  "contributors": [
+    {
+      "name": "Tomaz Muraus",
+      "email": "tomaz+npm@tomaz.me",
+      "url": "http://www.tomaz.me"
+    }
+  ],
+  "keywords": [
+    "twitter",
+    "twitter relay",
+    "webhook",
+    "cloud",
+    "rackspace monitoring",
+    "cloud monitoring",
+    "rackspace cloud monitoring"
+  ],
+  "homepage": "https://github.com/Kami/node-rackspace-monitoring-twitter-relay",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Kami/node-rackspace-monitoring-twitter-relay.git"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "bin": "./bin/raxmon-twitter-relay",
+  "scripts": {
+    "lint": "./scripts/lint.sh"
+  },
+  "dependencies": {
+    "async": "0.2.x",
+    "logmagic": "0.1.x",
+    "lodash": "1.3.x",
+    "optimist": "0.6.x",
+    "sprintf": "0.1.1",
+    "scmp": "0.0.2",
+    "express": "3.3.x",
+    "twitter": "0.2.x"
+  },
+  "devDependencies": {
+     "jshint": "2.1.x"
+  },
+  "engines": {
+    "node": ">= 0.6.0 && < 0.11.0"
+  },
+  "licenses" : [
+    {
+      "type" : "Apache",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ]
+}
