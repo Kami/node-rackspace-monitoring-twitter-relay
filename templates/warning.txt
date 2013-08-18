@@ -1,0 +1,1 @@
+[WARNING] {{ payload.entity.label }}: {{ payload.details.status }}

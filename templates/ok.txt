@@ -1,0 +1,1 @@
+[OK] {{ payload.entity.label }}: {{ payload.details.status }}

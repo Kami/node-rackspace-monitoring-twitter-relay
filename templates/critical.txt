@@ -1,0 +1,1 @@
+[CRITICAL] {{ payload.entity.label }}: {{ payload.details.status }}
