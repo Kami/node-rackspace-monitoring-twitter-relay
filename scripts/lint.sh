@@ -15,4 +15,4 @@
 # limitations under the License.
 #
 
-./node_modules/.bin/jshint $(find ./lib ./examples ./tests) --config .jshint.json
+./node_modules/.bin/jshint $(find ./bin ./lib ./examples ./tests) --config .jshint.json
