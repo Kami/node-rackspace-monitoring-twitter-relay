@@ -39,6 +39,7 @@
     "optimist": "0.6.x",
     "sprintf": "0.1.1",
     "jsonschema": "0.4.0",
+    "magic-templates": "0.1.x",
     "scmp": "0.0.2",
     "express": "3.3.x",
     "twitter": "0.2.x"
